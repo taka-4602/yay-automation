@@ -40,7 +40,7 @@ yay.report(post_id="通報するポストのID",reason="理由、絶対いるら
 ### 捨てアドレスで判定されるメールアドレスは使用不可
 これはm.kuku.luで指定アドレスでメアド作成をすれば回避可能  
 まあ、ということはm.kuku.luも自動化しないといけないです
-### アカウントジェネレーター
+## アカウントジェネレーター
 ```py
 from yay_automation import Yay
 from kukulu import Kukulu #これはこのリポジトリのやつを使ってください
