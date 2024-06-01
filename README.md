@@ -42,6 +42,7 @@ yay.report(post_id="通報するポストのID",reason="理由、絶対いるら
 これはm.kuku.luにて指定アドレスでメアド作成をすれば回避可能 ( もちろん回避できるドメインで )  
 まあ、ということはm.kuku.luも自動化しないといけないです
 ## アカウントジェネレーター
+#### generator.py
 ```py
 from yay_automation import Yay
 from kukulu import Kukulu #これはこのリポジトリのやつを使ってください
