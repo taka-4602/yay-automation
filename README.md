@@ -1,5 +1,5 @@
 # yay-automation
-yay!というSNSに使えるAPIラッパー  
+[yay!](https://yay.space/)というSNSに使えるAPIラッパー  
 WebSocketはないよ (そもそもアカウント大量生産とかいいね爆とかが目的だし、これ)
 ### >>```pip install yay-automation```<<
 ## 必須モジュール  
