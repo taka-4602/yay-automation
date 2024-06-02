@@ -22,6 +22,8 @@ yay.like("いいねするポストのID")
 yay.unlike("いいねけすポストのID")
 yay.add_to_bookmark("ブックマークするポストのID")
 yay.remove_from_bookmark("ブックマークけすポストのID")
+yay.follow("フォローするユーザーのID")
+yay.unfollow("フォローけすユーザーのID")
 yay.report(post_id="通報するポストのID",reason="理由、絶対いるらしい",category_id=0,opponent_id="通報するポスト主のユーザーID")
 #↑カテゴリーIDは0～6までそれぞれ、不快なコンテンツ・煽り・暴言=0、スパム=1、他サイトへ誘導・ID交換=2、仕事・勧誘などの業者=3、出会い厨=4、なりすまし・権利侵害=5、その他=6
 ```  
