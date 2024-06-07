@@ -81,7 +81,7 @@ class Yay():
         self.access_token=register["access_token"]
         return register["access_token"]
     
-    def report(self,post_id:str,reason:str,category_id:int,opponent_id:str):
+    def report(self,post_id:str,category_id:int,opponent_id:str,reason:str=""):
         token={
             "Authorization":f"Bearer {self.access_token}",
             "X-Device-Info":"Yay 3.39.0 Web (Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36)"
