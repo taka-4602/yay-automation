@@ -1,12 +1,13 @@
 # yay-automation
 [yay!](https://yay.space/)というSNSに使えるAPIラッパー  
 WebSocketはないよ (そもそもアカウント大量生産とかいいね爆とかが目的だし、これ)
-### >>```pip install yay-automation```<<
-## 必須モジュール  
-- requests
-  
+## インストール
+```py
+pip install yay-automation
+```
+必須：requests, bs4
 #### アカウントジェネレーターを使う場合
-- kukulu.py
+必須：kukulu.py
 ## Example.py
 ```py
 from yay_automation import Yay
